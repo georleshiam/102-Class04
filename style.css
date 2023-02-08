@@ -1,0 +1,202 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;;
+    }
+    .main_page{
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        height:100vh;
+        width:100%;
+        background:linear-gradient(hsl(334, 100%, 51%),hsl(316, 100%, 20%));
+        color:aqua
+    }
+    h1{
+        position:fixed;
+        top:40px;
+        left:90px;
+        font-size: 40px;
+    }
+    .Top_Options{
+        display:flex;
+        position:fixed;
+        right:150px;
+        top:55px;
+        width:200px;
+        justify-content:space-evenly;
+        font-size: larger;
+    }
+    .first_layout{
+        height: 85vh;
+        width:85vw;
+        border:1px black solid;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        position: absolute;
+    }
+    button{
+        position:absolute;
+        right:45px;
+        top:2px;
+        background-color:aqua;
+        border:1px solid grey;
+    }
+    label{
+        position:absolute;
+    border:none;
+    }
+    input{
+        width:80%;
+    border:none;
+    color:black;
+    outline:none;
+    margin-bottom:5px;
+    background-color: aqua;
+    }
+    svg{
+        margin-top:3px;
+        color: palevioletred;
+    }
+    ::placeholder{
+        font-size:15px;
+    }
+    hr{
+        border: .1px solid black;
+        width:99%;
+        position:absolute;
+        top:45px;
+    }
+    .Genre{
+        border:1px solid black;
+        display:flex;
+        position:absolute;
+        top:58px;
+        width:97%;
+        height: 40px;
+        justify-content:center;
+    }
+    .closer_Genre{
+        display:flex;
+        justify-content:space-evenly;
+        width:80%;
+        position:absolute;
+        height:40px;
+        align-items:center;
+        font-size:smaller;
+    }
+    .category{
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        position:absolute;
+        left:15px;
+        height:380px;
+        top:111px;
+        justify-content: flex-start;
+        padding:10px;
+    }
+    h4{
+        font-size: smaller;
+        margin-bottom:30px;
+    }
+    #FAN{
+        margin-bottom:30px;
+    }
+    .features{
+        display:flex;
+        height:250px;
+        width:150px;
+        border: 1px solid black;
+        flex-direction: column;
+        position:absolute;
+        right:15px;
+        top:111px;
+    }
+    #Sound_Pic{
+        position:absolute;
+        bottom:5px;
+        height:150px;
+        width:140px;
+        margin-left:5PX;
+    }
+    h3{
+        font-size:smaller;
+        padding:10px;
+    }
+    .Artist_Of_The_Week{
+        position:absolute;
+        right:15px;
+        bottom:0;
+        border:1px solid black;
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+    }
+    #Drake{
+        object-fit:fill;
+        width:150px;
+        height:130px;
+    }
+    .Artist{
+        text-align: center;
+    }
+    .About_Us{
+        border:1px solid black;
+        width:700px;
+        height:180px;
+        position:absolute;
+        bottom:0;
+    }
+    .About_Us{
+        padding:10px;
+        text-align: center;
+    }
+    span{
+        font-size: larger;
+    }
+    textarea{
+        width:500px;
+        height:60px;
+        background-color: rgb(0, 255, 200);
+    }
+    #Submit_Button{
+        height:fit-content;
+        width:80px;
+        position:relative;
+        bottom: 5px;
+        right:1px;
+    }
+    #Colorful{
+        height:200px;
+       /*position:absolute;
+        right:420px;
+        bottom:200px;*/
+        width:120px;
+    }/*
+    #heart1{
+        position:absolute;
+        bottom:200px;
+        left:710px;
+    }
+    #heart2{
+        position:absolute;
+        bottom:200px;
+        right:710px;
+    }*/
+    .heart{
+        height:200px;
+        width:120px;
+        
+    }
+    .display{
+        height:500px;
+        width:700px;
+        display:flex;
+        align-items: center;
+        justify-content:space-evenly;
+        position:fixed;
+        top:50px;
+    }
